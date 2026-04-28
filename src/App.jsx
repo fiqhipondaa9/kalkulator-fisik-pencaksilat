@@ -286,10 +286,10 @@ export default function App() {
         <div className="mx-auto relative z-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
           <div>
             <div className="inline-block bg-amber-500 text-slate-900 font-black text-[10px] px-4 py-1.5 rounded-full uppercase tracking-[0.2em] mb-4 shadow-lg">
-              IPSI • PERMENPORA 15 / 2024
+              PERMENPORA 15 / 2024
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight italic uppercase text-white drop-shadow-md">
-              MARTIAL <span className="text-rose-600">KINETICS</span>
+              PENCAK <span className="text-rose-600">SILAT</span>
             </h1>
           </div>
           <div className="text-left md:text-right w-full md:w-auto">
