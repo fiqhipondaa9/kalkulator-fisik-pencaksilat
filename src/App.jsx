@@ -289,7 +289,7 @@ export default function App() {
               PERMENPORA 15 / 2024
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight italic uppercase text-white drop-shadow-md">
-              PENCAK <span className="text-rose-600">SILAT</span>
+              KALKULATOR FISIK <span className="text-rose-600"> PENCAK SILAT</span>
             </h1>
           </div>
           <div className="text-left md:text-right w-full md:w-auto">
@@ -305,7 +305,7 @@ export default function App() {
             )}
             <div className="mt-2">
                 <p className="font-black text-rose-500/80 text-[11px] tracking-[0.3em] uppercase">
-                  Combat Analytics <span className="text-amber-500">by fiqhipondaa9</span>
+                  Platform Olahraga <span className="text-amber-500">by fiqhipondaa9</span>
                 </p>
             </div>
           </div>
@@ -321,7 +321,7 @@ export default function App() {
           <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-slate-200 relative overflow-hidden">
             <div className="flex items-center gap-4 mb-8 border-b border-slate-100 pb-5 relative z-10">
               <div className="bg-rose-700 text-white p-3 rounded-2xl shadow-lg"><IconUser /></div>
-              <h2 className="text-2xl font-black text-slate-900 uppercase tracking-tight italic">Profil Pendekar</h2>
+              <h2 className="text-2xl font-black text-slate-900 uppercase tracking-tight italic">Identitas & Antropometri</h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 relative z-10">
@@ -390,7 +390,7 @@ export default function App() {
           <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-slate-200">
             <div className="flex items-center gap-4 mb-8 border-b border-slate-100 pb-5">
               <div className="bg-rose-100 text-rose-700 p-3 rounded-2xl"><IconFist /></div>
-              <h2 className="text-2xl font-black text-slate-900 uppercase tracking-tight italic">Grappling & Striking Metrics</h2>
+              <h2 className="text-2xl font-black text-slate-900 uppercase tracking-tight italic">Rekam Hasil Tes Fisik</h2>
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5">
