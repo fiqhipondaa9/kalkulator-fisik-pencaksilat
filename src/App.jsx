@@ -289,7 +289,7 @@ export default function App() {
               PERMENPORA 15 TAHUN 2024
             </div>
             <h1 className="text-4xl md:text-6xl font-black tracking-tighter leading-tight italic uppercase text-white drop-shadow-md">
-              KALKULATOR FISIK <span className="text-rose-600"> PENCAK SILAT</span>
+              KALKULATOR FISIK <br/> <span className="text-rose-600"> PENCAK SILAT</span>
             </h1>
           </div>
           <div className="text-left md:text-right w-full md:w-auto">
@@ -329,10 +329,10 @@ export default function App() {
               <div className="space-y-1"><label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Perguruan / Provinsi</label><input type="text" value={identity.origin} onChange={e => setIdentity({...identity, origin: e.target.value})} className={inputClass} placeholder="Asal perguruan..." /></div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-1"><label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Tgl Lahir</label><input type="date" value={identity.dob} onChange={e => setIdentity({...identity, dob: e.target.value})} className={`${inputClass} text-sm`} /></div>
-                <div className="space-y-1"><label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Age Index</label><div className="w-full bg-slate-100 border border-slate-200 rounded-2xl px-4 py-3 font-black text-slate-900 text-center">{age !== '-' ? `${age} Thn` : '\u00A0'}</div></div>
+                <div className="space-y-1"><label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Umur</label><div className="w-full bg-slate-100 border border-slate-200 rounded-2xl px-4 py-3 font-black text-slate-900 text-center">{age !== '-' ? `${age} Thn` : '\u00A0'}</div></div>
               </div>
               <div className="space-y-1">
-                <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Kategori Gender</label>
+                <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Jenis Kelamin</label>
                 <select value={identity.gender} onChange={e => setIdentity({...identity, gender: e.target.value})} className={`${inputClass} cursor-pointer`}>
                   <option value="Putra">Putra (Male)</option><option value="Putri">Putri (Female)</option>
                 </select>
@@ -340,7 +340,7 @@ export default function App() {
             </div>
 
             <div className="bg-slate-50 border border-slate-200 rounded-[2rem] p-6 grid grid-cols-2 md:grid-cols-4 gap-4 relative z-10">
-              {[{label: 'Tinggi (cm)', id: 'height'}, {label: 'Berat (kg)', id: 'weight'}, {label: 'Arm Span', id: 'armSpan'}, {label: 'Sit Height', id: 'sitHeight'}].map(item => (
+              {[{label: 'Tinggi (cm)', id: 'height'}, {label: 'Berat (kg)', id: 'weight'}, {label: 'Tinggi Badan', id: 'armSpan'}, {label: 'Tinggi Duduk', id: 'sitHeight'}].map(item => (
                  <div key={item.id} className="space-y-1">
                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">{item.label}</label>
                    <input type="number" value={anthro[item.id]} onChange={e => setAnthro({...anthro, [item.id]: e.target.value})} className="w-full bg-white border border-slate-200 rounded-2xl py-3 px-3 font-black text-center focus:border-rose-600 outline-none text-slate-900" placeholder="0" />
