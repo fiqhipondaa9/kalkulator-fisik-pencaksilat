@@ -340,7 +340,7 @@ export default function App() {
             </div>
 
             <div className="bg-slate-50 border border-slate-200 rounded-[2rem] p-6 grid grid-cols-2 md:grid-cols-4 gap-4 relative z-10">
-              {[{label: 'Tinggi (cm)', id: 'height'}, {label: 'Berat (kg)', id: 'weight'}, {label: 'Tinggi Badan', id: 'armSpan'}, {label: 'Tinggi Duduk', id: 'sitHeight'}].map(item => (
+              {[{label: 'Tinggi (cm)', id: 'height'}, {label: 'Berat (kg)', id: 'weight'}, {label: 'Rentang Lengan', id: 'armSpan'}, {label: 'Tinggi Duduk', id: 'sitHeight'}].map(item => (
                  <div key={item.id} className="space-y-1">
                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">{item.label}</label>
                    <input type="number" value={anthro[item.id]} onChange={e => setAnthro({...anthro, [item.id]: e.target.value})} className="w-full bg-white border border-slate-200 rounded-2xl py-3 px-3 font-black text-center focus:border-rose-600 outline-none text-slate-900" placeholder="0" />
